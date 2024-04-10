@@ -5,9 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ucapan Selamat Hari Raya Idul Fitri</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;700&family=Kaushan+Script&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
         /* Custom styles here */
+        h2 {
+            font-family: "Kalam", cursive;
+            font-weight: 700;
+            font-style: bold;
+        }
+        p {
+            font-family: "Kalam", cursive;
+            font-weight: 300;
+            font-style: normal;
+        }
         .bg-blue-custom {
             background-color: #3498db; /* warna biru */
         }
@@ -27,16 +40,23 @@
             background-repeat: no-repeat;
             background-attachment: fixed; /* membuat gambar tetap */
         }
+
+        .blur-border {
+            border-radius: 10px; /* Tentukan radius sudut border */
+            box-shadow: 0 0 10px 10px rgba(211, 211, 211, 0.363); /* Efek blur pada border */
+        }
+
     </style>
 </head>
 
 <body class="bg-gray-100 flex justify-center items-center h-screen">
     <div class="max-w-sm mx-auto bg-white rounded-lg shadow-md overflow-hidden card">
-        <div class="px-4 py-6 bg-blue-custom">
-            <img src="img/image.jpg" alt="Foto Keluarga" class="w-full mb-4 rounded-lg">
+        <div class="px-4 py-6 bg-blue-custom text-center">
+            <img src="img/image.jpg" alt="Foto Keluarga" class="w-full mb-4 rounded-lg blur-border">
             <h2 class="text-xl font-semibold text-white">Selamat Hari Raya Idul Fitri 1445 H!</h2>
-            <p class="text-white mt-2">Kami sekeluarga dengan tulus mengucapkan Selamat Hari Raya Idul Fitri! Di momen yang penuh kebahagiaan ini, kami ingin mengungkapkan permohonan maaf yang tulus dari lubuk hati kami. Semoga suasana suci Idul Fitri membawa kebahagiaan, kedamaian, dan kesuksesan bagi kita semua. Mari kita bersama-sama menjalin tali silaturahmi yang erat, merajut kebersamaan, dan memperkuat nilai-nilai kebaikan dalam bingkai kasih sayang. Selamat Hari Raya Idul Fitri, mohon maaf lahir dan batin. </p>
-        </div>
+            <p class="text-white mt-2">
+                Kami sekeluarga dengan tulus mengucapkan Selamat Hari Raya Idul Fitri Minal 'Aidin wal-Faizin mohon maaf lahir dan batin.</p>
+        </div>        
     </div>
 </body>
 
